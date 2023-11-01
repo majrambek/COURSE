@@ -237,7 +237,7 @@ body{
     .plant-image img{
         position: relative;
         left: 0;
-        top: 420px;
+        top: 440px;
         width: 450px;
         height: 320px;
  }
@@ -272,6 +272,66 @@ body{
         height: 200px;
     }
 }
+
+/* .parrent{
+    padding: 20px 0;
+}
+
+.parrent-title{
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 1.92px;
+}
+
+.parrent-text{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.8px; 
+    letter-spacing: 1.08px;
+}
+
+.parrent-text span{
+    color: #FFF;
+}
+
+.parrent-image img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 0
+}
+
+.parrent__content{
+    position: absolute;
+    right: 170px;
+    
+}
+
+@media screen and (max-width:1230px) {
+    .parrent-image img{
+        position: relative;
+        left:0;
+        top: 400px;
+        width: 450px;
+        height: 320px;
+ }
+}
+
+@media screen and (max-width:1200px) {
+    .parrent__content{
+        position: relative;
+        left: 0;
+        top: 400px;
+        text-align: center;
+    }
+} 
+ */
+
 
 
 
