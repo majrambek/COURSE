@@ -191,7 +191,7 @@ body{
 }
 
 
-/* .plant{
+ .plant{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -216,7 +216,9 @@ body{
     letter-spacing: 1.08px;
 }
 
-.plant-image{
+.plant-image img {
+    width: 100%;
+    height: 100%;
     position: relative;
     left: 230px;
     object-fit: cover;
@@ -229,9 +231,9 @@ body{
 
 @media screen and (max-width:1200px) {
     .plant-image img{
-        position: absolute;
-        right: 10px;
-        top: 400px;
+        position: relative;
+        left: 0;
+        top: 420px;
         width: 450px;
         height: 320px;
  }
@@ -241,11 +243,31 @@ body{
     .plant__content{
         position: absolute;
         left: 0;
-        right: 40px;
         text-align: center;
     }
-} */
+} 
 
+@media screen and (max-width:450px) {
+    .plant-title{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .plant-text{
+        font-size: 26px;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .plant-image img{
+        position: relative;
+        right: 60px;
+        width: 320px;
+        height: 200px;
+    }
+}
 
 
 
