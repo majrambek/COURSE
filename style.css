@@ -268,12 +268,13 @@ body{
     .plant-image img{
         position: relative;
         right: 60px;
+        top: 460px;
         width: 320px;
         height: 200px;
     }
 }
 
-/* .parrent{
+ .parrent{
     padding: 20px 0;
 }
 
@@ -330,7 +331,20 @@ body{
         text-align: center;
     }
 } 
- */
+
+@media screen and (max-width:450px) {
+    .parrent-title{
+        font-size:46px;
+        
+    }
+}
+
+@media screen and (max-width:450px) {
+    .parrent-image img{
+        width: 320px;
+        height: 200px;
+    }
+}
 
 
 
