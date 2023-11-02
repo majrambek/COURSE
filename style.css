@@ -247,8 +247,7 @@ letter-spacing: 1.08px;
     }
 }
 
-
- /* .parrent{ 
+ .parrent{ 
     padding: 20px 0;
 }
 
@@ -322,7 +321,7 @@ letter-spacing: 1.08px;
     }
 }
 
-.inter{
+/* .inter{
     padding: 20px 0;
 }
 
@@ -572,7 +571,7 @@ hr{
         display: grid;
         grid-template-columns:  1fr ;
     }
-} */ 
+} */  
 
 /* .learn__content{
     display: flex;
