@@ -184,7 +184,7 @@ body{
     }
 }
 
-  /* .plant__content{
+ .plant__content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -248,7 +248,7 @@ letter-spacing: 1.08px;
 }
 
 
- .parrent{ 
+ /* .parrent{ 
     padding: 20px 0;
 }
 
@@ -572,7 +572,7 @@ hr{
         display: grid;
         grid-template-columns:  1fr ;
     }
-} */
+} */ 
 
 /* .learn__content{
     display: flex;
