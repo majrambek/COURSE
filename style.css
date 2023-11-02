@@ -199,7 +199,7 @@ line-height: 70.4px;
 letter-spacing: 1.92px;
 }
 
-.plant-text{
+.plant-pretitle{
     color: rgba(255, 255, 255, 0.50);
 font-size: 26px;
 font-style: normal;
@@ -223,14 +223,39 @@ letter-spacing: 1.08px;
 
 @media screen and (max-width:660px) {
     .plant-image img{
-        width: 450px;
-        height: 300px;
+        width:100%;
+        height: 100%;
     }
 } 
 
+@media screen and (max-width:650px) {
+    .plant-title{
+        font-size: 48px ;
+    }
+}
 
-  /* .parrent{ 
+@media screen and (max-width:650px) {
+    .plant-pretitle{
+        font-size: 20px ;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .plant-image img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+ .parrent{ 
     padding: 20px 0;
+}
+
+.parrent__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
 }
 
 .parrent-title{
@@ -242,7 +267,7 @@ letter-spacing: 1.08px;
     letter-spacing: 1.92px;
 }
 
-.parrent-text{
+.parrent-pretitle{
     color: rgba(255, 255, 255, 0.50);
     font-size: 26px;
     font-style: normal;
@@ -256,52 +281,48 @@ letter-spacing: 1.08px;
 }
 
 .parrent-image img{
-    width: 50%;
-    height: 50%;
-    position: relative;
-    top: 0
-}
-
-.parrent__content{
-    position: absolute;
-    right: 170px;
+    width: 100%;
+    height:100%;
     
 }
 
+
 @media screen and (max-width:1230px) {
     .parrent-image img{
-        position: relative;
-        left:0;
-        top: 400px;
-        width: 450px;
-        height: 320px;
+       width: 100%;
+       height: 100%;
  }
 }
 
 @media screen and (max-width:1200px) {
     .parrent__content{
-        position: relative;
-        left: 0;
-        top: 400px;
-        text-align: center;
+       display: grid;
+       grid-template-columns: 1fr;
+       text-align: center;
     }
 } 
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:650px) {
     .parrent-title{
-        font-size:46px;
+        font-size:43px;
         
     }
 }
 
-@media screen and (max-width:450px) {
-    .parrent-image img{
-        width: 320px;
-        height: 260px;
+@media screen and (max-width:650px) {
+    .parrent-pretitle{
+        font-size: 20px;
     }
 }
 
-.inter-image img{
+@media screen and (max-width:650px) {
+    .parrent-image img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* .inter-image img{
     position: relative;
     max-width: 100%;
     height: 100%;
@@ -565,7 +586,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
-} */
+}  */
 /* 
 .learn-pretitle{
     margin: 0;
@@ -634,4 +655,4 @@ font-weight: 400;
 line-height: 26.4px; 
 letter-spacing: 0.42px;
 }
-  */
+  */ 
