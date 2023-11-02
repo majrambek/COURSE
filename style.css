@@ -469,7 +469,7 @@ letter-spacing: 1.08px;
     }
 }
 
-/* .craft{
+ .craft{
     padding: 50px 20px;
 }
 
@@ -571,7 +571,7 @@ hr{
         display: grid;
         grid-template-columns:  1fr ;
     }
-} */   
+} 
 
 /* .learn__content{
     display: flex;
