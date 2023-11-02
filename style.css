@@ -184,7 +184,7 @@ body{
     }
 }
 
- .plant__content{
+ /* .plant__content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -208,7 +208,7 @@ line-height: 37.8px;
 letter-spacing: 1.08px;
 }
 
-.place-image img{
+.plant-image img{
     width: 100%;
     height: 100%;
 }
@@ -222,11 +222,11 @@ letter-spacing: 1.08px;
 } 
 
 @media screen and (max-width:660px) {
-    .place-image img{
+    .plant-image img{
         width: 450px;
         height: 300px;
     }
-}
+} */
 
 
   /* .parrent{ 
