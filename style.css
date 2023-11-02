@@ -184,7 +184,7 @@ body{
     }
 }
 
- /* .plant__content{
+  .plant__content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -226,7 +226,7 @@ letter-spacing: 1.08px;
         width: 450px;
         height: 300px;
     }
-} */
+} 
 
 
   /* .parrent{ 
